@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+@import "fonts.css";
+body
+{
+	background:#000;
+	font-family: "RalewayRegular";
+	   
+}
+div.main
+{
+	min-width: 800px;
+	max-width: 2000px;
+	padding:20px;
+	height:auto;
+	width: auto;
+	margin:0px;
+	background-attachment: fixed ; 
+}
+.menu
+{
+	padding:0px;
+	margin:0px;
+	height: 60px;
+}
+.m_but
+{
+	height:60px;
+	padding:0;
+	margin:1px;
+	background:#ffe500;
+	color: #000;
+	width: 14%;
+	text-align:center;
+	vertical-align: middle;
+	position:relative;
+	float:left;
+}
+.but{
+	height:60px;
+	padding:0;
+	margin: 1px;
+	background: #2c2b1d;
+	width: 14%;
+	text-align:center;
+	vertical-align: middle;
+	position:relative;
+	float:left;
+	color:#FFF;
+	transition: .5s;
+}
+.but:hover{
+	color: #000;
+	background: #ffe500;
+}
+.cont
+{    
+	padding:0px;
+	margin: 30px 20px;
+	height:400px;
+}
+.spec
+{
+	height: inherit;
+	padding:0;
+	margin: 0;
+	background: #AAA;
+	width: 19.8%;
+	text-align:center;
+	vertical-align: middle;
+	position:absolute;
+	float:left;
+	color:#FFF;
+	left: 30px;
+	height: 500px;
+}
+.ppkn
+{
+	width:90.5%;
+	position:absolute;
+	text-align:left;
+	padding-left:27px;
+	padding-top:20px;
+	background-color:#000;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	background: rgba(0, 0, 0, 0.5); 
+	height:80px;
+	bottom: 0;
+	
+}
+
+#bl1, #bl2, #bl3, #bl4, #bl5{
+	transition: .8s;
+}
+#bl1{
+	background: url(../img/lim.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#bl1:hover{
+	width: 500px;
+}
+#bl2{
+	background:url(../img/ap.jpg); 
+	background-repeat:no-repeat;
+	background-size: cover;
+	box-shadow: 0 10px 52px rgba(0,0,0,0.8);
+	left: 20.7%;
+}
+#bl2:hover{
+	width: 500px;
+}
+#bl3{
+	background:url(../img/lime.jpg); 
+	background-repeat:no-repeat;
+	background-size: cover;
+	box-shadow: 0 10px 52px rgba(0,0,0,0.8);
+	left: 39.6%;
+}
+#bl3:hover{
+	width: 500px;
+
+}
+#bl4{
+	background:url(../img/grape.jpg);
+	background-repeat:no-repeat;
+	background-size: cover; 
+	box-shadow: 0 10px 52px rgba(0,0,0,0.8);
+	left: 59.4%;
+}
+#bl4:hover{
+	width: 500px;
+}
+#bl5{
+	/*background:url(../img/mand.jpg);*/
+	background-repeat:no-repeat;
+	background-size: cover;
+	box-shadow: 0 10px 52px rgba(0,0,0,0.8);
+	left: 77%;
+	/*width: 18.8%;*/
+	
+	overflow: hidden;
+	width: 270px;
+	height: 500px;
+}
+#bl5{
+	overflow: hidden;
+	width: 270px;
+
+	height: 500px;
+
+}
+img:hover{
+width: 500px;
+transition: .8s;
+}
+/*#bl5{
+	overflow: hidden;
+	width: 350px;
+	height: 500px;
+
+}*/
+/*#bl5:hover{
+	width: 500px;
+}*/
+#bl1{
+}
+a
+{
+	text-decoration:none;
+}
+a:visited
+{
+	color:inherit;
+}
+/*img
+{
+	width:100%;
+}*/
